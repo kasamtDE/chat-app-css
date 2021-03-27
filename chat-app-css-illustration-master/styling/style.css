@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 250px){
+    body{
+        max-height: 150vh;
+        max-width: 100vw;
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .background{
+        width: 35rem;
+        height: 50rem;
+        border-bottom-right-radius:20rem ;
+        top: -12rem;
+        left: -20rem;
+        position: absolute;
+        background:linear-gradient(to top,hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+    
+    }
+    header{
+        padding-bottom: 10rem;
+    }
+    header .app{
+        background-color: white;
+        position: relative;
+        height: 36rem;
+        width: 18rem;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        top: 5rem;
+        left: 5rem;
+        border-radius: 2.5rem;
+        box-shadow: 5px 10px 15px 2px rgba(0,0,0,0.2);
+    }
+    .app-container{
+        height: 95%;
+        background-color: white;
+        border-radius: 2rem;
+    }
+    .app-top{
+        height: 15%;
+        background:linear-gradient(to right,hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+        border-bottom-left-radius: 0.3rem;
+        border-bottom-right-radius: 0.3rem;
+
+    }
+    .app-top-white{
+        background-color: white;
+        width: 50%;
+        height: 2rem;
+        border-radius: 2rem;
+        left: 4.5rem;
+        top: 0.2rem;
+        position: absolute;
+    }
+    .app-top-profile{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-items: center;
+        position: relative;
+        top: 2rem;
+    }
+    .left-arrow{
+        border: solid white;
+        border-width: 3px 0px 0px 3px;
+        display: inline-block;
+        padding: 2px; 
+        opacity: 0.8;
+        transform: rotate(-45deg);
+        position: relative;
+        left: 2px;
+    }
+    .samuel{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        width: 10rem;
+        font-family: 'Rubik', sans-serif;
+        font-size: 0.9rem;
+        position: relative;
+        left: -0.5rem;
+    }
+    .available{
+        opacity: 0.2;
+        font-size: 0.8rem;
+    }
+    .samuel img{
+        border-radius: 50%;
+        width: 35px;
+    }
+    .dots{
+        z-index: 10;
+        
+    }
+    .dots p{
+        display: flex;
+        color: white;
+        flex-direction: column;
+        font-size: 1.2rem;
+        position: relative;
+        top:-0.5rem;
+        height: 0.2rem;
+    }
+    .app-main{
+        margin-top: 1rem;
+        padding-left: 0.5rem;
+    }
+    .chat{
+        font-family: 'Rubik', sans-serif;
+        max-width: 60%;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        font-size: 0.6rem;
+        font-weight: 600;
+        margin-top: 1rem;
+    }
+    .left{
+        background:  hsl(206, 6%, 79%);
+        color:  hsl(276, 55%, 52%);
+
+
+    }
+    .right{
+        color: hsl(271, 15%, 43%);
+        box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.2);
+    }
+    .images{
+        display: flex;
+        float: right;
+
+    }
+    .images img{
+        margin: 0 0.3rem;
+        margin-top: 1rem;
+        width: 50px;
+        border-radius: 12px;
+    }
+    .rightside{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .pricing{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+        font-family: 'Rubik', sans-serif;
+        font-size: 0.8rem;
+        background:linear-gradient(to left,hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+        padding: 0 1rem;
+        margin-top: 0.4rem ;
+        height: 2rem;
+        color: white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 3px;
+
+    }
+    .price{
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+
+    .top{
+        margin-top: 0.5rem;
+    }
+    .minute{
+        font-size: 0.6rem;
+        flex: 1;
+        margin-left: 0.5rem;
+        opacity: 0.8;
+        font-weight: 500;
+    }
+    .pricing .circle1{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        border: 1px solid white;
+        opacity: 0.3;
+    }
+    .app-footer{
+        padding-left: 1rem;
+        margin-top: 1.5rem;
+    }
+    .message{
+        opacity: 0.2;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+
+    .app-footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .circle{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: hsl(271, 36%, 24%) ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .circle .arrow{
+        border: solid white;
+        border-width: 0px 3px 3px 0px;
+        display: inline-block;
+        padding: 4px; 
+        opacity: 0.8;
+        transform: rotate(-45deg);
+
+    }
+    .booking{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        max-width: 60%;
+        margin: 0 auto;
+        font-family: 'Rubik', sans-serif;
+        padding-bottom: 3rem;
+    }
+    .booking h1{
+        font-size: 2rem;
+        color: hsl(271, 36%, 24%);
+    }
+    .booking p{
+       margin-top: 2rem;
+       color:hsl(270, 7%, 64%);
+    }
+
+}
+@media screen and (min-width: 1000px){
+
+    header {
+        flex: 1;
+    }
+    header .background{
+        top: -5rem;
+        left: -12rem;
+        border-bottom-left-radius: 15rem ;        
+    }
+    header .app{
+        left: 8rem;
+    }
+    body{
+        flex-direction:row;
+        max-height: 150vh;
+    }
+    .booking{
+        height: 40rem;
+        padding: 2rem;
+        width: 100%;
+        font-size: 1.5rem;
+        align-items: flex-start;
+    }
+    .booking p{
+        max-width: 75%;
+        text-align: start;
+    }
+    
+    
+}
+@media screen and (min-width: 1400px){
+    header .app{
+        left: 18rem;
+    }
+
+}
